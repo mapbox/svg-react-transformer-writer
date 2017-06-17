@@ -1,0 +1,46 @@
+{
+  "name": "@mapbox/svg-react-transformer-cli",
+  "version": "0.1.0",
+  "description": "Transform SVGs into React component module files",
+  "bin": {
+    "svg-react-transformer": "cli.js"
+  },
+  "scripts": {
+    "test-jest": "jest",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/svg-react-transformer-cli.git"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "jsx",
+    "svg-to-react",
+    "svg-to-jsx"
+  ],
+  "author": "Mapbox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mapbox/svg-react-transformer-cli/issues"
+  },
+  "homepage": "https://github.com/mapbox/svg-react-transformer-cli#readme",
+  "dependencies": {
+    "@mapbox/svg-react-transformer": "^0.1.0",
+    "chalk": "^1.1.3",
+    "globby": "^6.1.0",
+    "lodash": "^4.17.4",
+    "meow": "^3.7.0",
+    "mkdirp": "^0.5.1",
+    "pify": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "execa": "^0.7.0",
+    "jest": "^20.0.4",
+    "tempy": "^0.1.0"
+  }
+}
