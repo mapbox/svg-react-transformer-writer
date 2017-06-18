@@ -1,5 +1,5 @@
 {
-  "name": "@mapbox/svg-react-transformer-cli",
+  "name": "@mapbox/svg-react-transformer-writer",
   "version": "0.1.0",
   "description": "Transform SVGs into React component module files",
   "bin": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mapbox/svg-react-transformer-cli.git"
+    "url": "git+https://github.com/mapbox/svg-react-transformer-writer.git"
   },
   "keywords": [
     "react",
@@ -28,9 +28,9 @@
   "author": "Mapbox",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mapbox/svg-react-transformer-cli/issues"
+    "url": "https://github.com/mapbox/svg-react-transformer-writer/issues"
   },
-  "homepage": "https://github.com/mapbox/svg-react-transformer-cli#readme",
+  "homepage": "https://github.com/mapbox/svg-react-transformer-writer#readme",
   "dependencies": {
     "@mapbox/svg-react-transformer": "^0.2.0",
     "chalk": "^1.1.3",
