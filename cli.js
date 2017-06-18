@@ -81,7 +81,11 @@ const createComponentModule = svgFilename => {
       );
 
       if (cli.flags.verbose) {
-        console.log(`${chalk.grey(path.relative(process.cwd(), svgFilename) + ' ->')} ${outFile}`);
+        console.log(
+          `${chalk.grey(
+            path.relative(process.cwd(), svgFilename) + ' ->'
+          )} ${outFile}`
+        );
       }
 
       return pify(fs.writeFile)(outFile, component);
