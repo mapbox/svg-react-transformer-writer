@@ -5,7 +5,7 @@
 Transform SVGs into React component module files.
 
 Provides a Node API and a CLI.
-Runs SVG files through the `svgToComponentModule` function of [svg-react-transformer](https://github.com/mapbox/svg-react-transformer), then writes the React component modules to new files.
+Runs SVG files through the `toComponentModule` function of [svg-react-transformer](https://github.com/mapbox/svg-react-transformer), then writes the React component modules to new files.
 
 ## Node API
 
@@ -18,7 +18,7 @@ Files without an `.svg` extension are automatically ignored.
 
 **options** `?Object`
 
-You can pass all of [the options from `svgToComponentModule`](https://github.com/mapbox/svg-react-transformer#svgtocomponentmodule) (e.g. SVGO plugins, a component template).
+You can pass all of [the options from `toComponentModule`](https://github.com/mapbox/svg-react-transformer#tocomponentmodule) (e.g. SVGO plugins, a component template).
 The `name` option is automatically provided, derived from the basename of each input SVG file.
 
 You can also pass the following:

@@ -24,7 +24,7 @@ module.exports = (files, outDir, options) => {
     });
     return pify(fs.readFile)(svgFilename, 'utf8')
       .then(svg => {
-        return svgReactTransformer.svgToComponentModule(svg, svgOptions);
+        return svgReactTransformer.toComponentModule(svg, svgOptions);
       })
       .then(component => {
         const outFilename = filenameTemplate(componentName);

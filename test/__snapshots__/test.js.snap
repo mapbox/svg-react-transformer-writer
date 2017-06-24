@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`svgReactTransformerWriter options passed to svgToComponentModule 1`] = `
+exports[`svgReactTransformerWriter options passed to toComponentModule 1`] = `
 "\\"use strict\\";
 const React = require(\\"react\\");
 const PropTypes = require(\\"prop-types\\");

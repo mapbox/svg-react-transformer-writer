@@ -25,7 +25,7 @@ describe('svgReactTransformerWriter', () => {
       });
   });
 
-  test('file content matches svgReactTransformer.svgToComponentModule, with name provided', () => {
+  test('file content matches svgReactTransformer.toComponentModule, with name provided', () => {
     const fixtureContent = fs.readFileSync(
       path.join(__dirname, 'fixtures/apple.svg'),
       'utf8'
@@ -34,7 +34,7 @@ describe('svgReactTransformerWriter', () => {
       .then(() => {
         return Promise.all([
           pify(fs.readFile)(path.join(tmpDir, 'apple.js'), 'utf8'),
-          svgReactTransformer.svgToComponentModule(fixtureContent, {
+          svgReactTransformer.toComponentModule(fixtureContent, {
             name: 'apple'
           })
         ]);
@@ -59,7 +59,7 @@ describe('svgReactTransformerWriter', () => {
       });
   });
 
-  test('options passed to svgToComponentModule', () => {
+  test('options passed to toComponentModule', () => {
     const options = {
       filenameTemplate: name => `svg-cmp-${name}`,
       svgoPlugins: [{ removeDimensions: true }],
