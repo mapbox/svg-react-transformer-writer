@@ -1,4 +1,4 @@
-# svg-react-transformer-writer
+# @mapbox/svg-react-transformer-writer
 
 [![Build Status](https://travis-ci.org/mapbox/svg-react-transformer-writer.svg?branch=master)](https://travis-ci.org/mapbox/svg-react-transformer-writer)
 
