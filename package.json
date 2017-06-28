@@ -9,7 +9,7 @@
   "scripts": {
     "precommit": "lint-staged",
     "lint": "eslint .",
-    "format": "prettier --single-quote --write '{,bin/,test/}*.js'",
+    "format": "prettier --single-quote --write '{,bin/**/,test/**/}*.js'",
     "test-jest": "jest",
     "pretest": "npm run lint",
     "test": "jest"
@@ -49,7 +49,8 @@
     "tempy": "^0.1.0"
   },
   "lint-staged": {
-    "{,bin/,test/}*.js": [
+    "{,bin/**/,test/**/}*.js": [
+      "eslint",
       "prettier --single-quote --write",
       "git add"
     ]

@@ -13,9 +13,8 @@ module.exports = (files, outDir, options) => {
   if (!files) throw new Error('You must specify input files');
   if (!outDir) throw new Error('You must specify an output directory');
   options = options || {};
-  const filenameTemplate = options.filenameTemplate !== undefined
-    ? options.filenameTemplate
-    : x => x;
+  const filenameTemplate =
+    options.filenameTemplate !== undefined ? options.filenameTemplate : x => x;
 
   const createComponentModule = svgFilename => {
     const componentName = path.basename(svgFilename, '.svg');
