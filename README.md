@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/mapbox/svg-react-transformer-writer.svg?branch=master)](https://travis-ci.org/mapbox/svg-react-transformer-writer)
 
-Transform SVGs into React component module files.
+Transform SVG files into React component module files.
 
 Provides a Node API and a CLI.
 Runs SVG files through the `toComponentModule` function of [svg-react-transformer](https://github.com/mapbox/svg-react-transformer), then writes the React component modules to new files.
