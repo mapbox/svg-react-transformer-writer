@@ -5,7 +5,7 @@
 Transform SVG files into React component module files.
 
 Provides a Node API and a CLI.
-Runs SVG files through [the `toComponentModule` function of svg-react-transformer(https://github.com/mapbox/svg-react-transformer#tocomponentmodule), then writes the React component modules to new files.
+Runs SVG files through [the `toComponentModule` function of svg-react-transformer](https://github.com/mapbox/svg-react-transformer#tocomponentmodule), then writes the React component modules to new files.
 
 ## Installation
 
@@ -15,14 +15,16 @@ npm install @mapbox/svg-react-transformer-writer
 
 ## Node API
 
-### svgReactTransformerWriter(files, outDir, [options])`
+### svgReactTransformerWriter
+
+`svgReactTransformerWriter(files, outDir, [options])`
 
 Returns a Promise that resolves when all output files have been written.
 
 #### files
 
-Type: `string | Array<string>`
-Required
+Type: `string | Array<string>`.
+**Required**.
 
 Globs that point to your SVG files.
 Files without an `.svg` extension are automatically ignored.
