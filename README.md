@@ -29,14 +29,14 @@ Files without an `.svg` extension are automatically ignored.
 
 #### outDir
 
-Type: `string`
-Required
+Type: `string`.
+**Required**.
 
 Path to an output directory where React component module files will be written.
 
 #### options
 
-Type: `Object`
+Type: `Object`.
 
 **You can pass all of [the options from `toComponentModule`](https://github.com/mapbox/svg-react-transformer#tocomponentmodule)** (e.g. SVGO plugins, a component template).
 **The `name` option is automatically provided**, derived from the basename of each input SVG file.
@@ -45,8 +45,8 @@ The following are additional options:
 
 ##### filenameTemplate
 
-Type: `Function`
-Default: `x => x`
+Type: `Function`.
+Default: `x => x`.
 
 Determines the filenames of output React component modules.
 Receives the input SVG file basename as an argument; should return the JS basename you want.
