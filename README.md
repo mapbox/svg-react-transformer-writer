@@ -47,7 +47,7 @@ The following are additional options:
 
 ##### filenameTemplate
 
-Type: `Function`.
+Type: `(svgBasename: string) => string`.
 Default: `x => x`.
 
 Determines the filenames of output React component modules.

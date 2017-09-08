@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/svg-react-transformer-writer",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "Transform SVGs into React component module files",
   "bin": {
     "svg-react-transformer": "bin/svg-react-transformer.js"
