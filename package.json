@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/svg-react-transformer-writer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transform SVGs into React component module files",
   "bin": {
     "svg-react-transformer": "bin/svg-react-transformer.js"
@@ -32,8 +32,8 @@
   },
   "homepage": "https://github.com/mapbox/svg-react-transformer-writer#readme",
   "dependencies": {
-    "@mapbox/svg-react-transformer": "^0.7.0",
-    "chalk": "^2.0.1",
+    "@mapbox/svg-react-transformer": "^1.0.1",
+    "chalk": "^2.1.0",
     "globby": "^6.1.0",
     "lodash": "^4.17.4",
     "meow": "^3.7.0",
@@ -42,11 +42,11 @@
   },
   "devDependencies": {
     "del": "^3.0.0",
-    "eslint": "^4.0.0",
+    "eslint": "^4.7.1",
     "eslint-plugin-node": "^5.0.0",
-    "jest": "^20.0.4",
-    "prettier": "^1.4.4",
-    "tempy": "^0.1.0"
+    "jest": "^21.1.0",
+    "prettier": "^1.7.0",
+    "tempy": "^0.2.1"
   },
   "lint-staged": {
     "**/*.js": [
