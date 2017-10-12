@@ -30,7 +30,7 @@ module.exports = (files, outDir, options) => {
         const outFile = path.join(outDir, outFilename + '.js');
         return pify(fs.writeFile)(outFile, component).then(() => ({
           source: svgFilename,
-          result: outFilename
+          output: outFile
         }));
       });
   };
